@@ -1,0 +1,160 @@
+@import "https://fonts.googleapis.com/css2?family=PT+Serif&display=swap";
+#main-page{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    border-spacing: 20px;
+}
+/*селекторов псевдоклассов */
+h4:first-child{
+    color: snow;
+}
+/*селекторов дочерних элементов */
+h4>span{
+    color: white;
+    text-decoration: underline;
+}
+/*селекторов потомств*/
+h4 span{
+    font-style: normal;
+}
+
+#head-box{
+    z-index: 100;
+    padding: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #494848;
+    border-radius: 20px;
+    box-shadow: 0 5px 0px #3c354a;
+    transition: 1s;
+}
+#head-box:hover{
+    transform: scale(1.15);
+}
+.git-img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.ifmo-img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+body {
+    display: flex;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 18px;
+    font-family: "PT Serif", serif;
+    background-color: #2a2828;
+}
+.content-box{
+    z-index: 100;
+    height: 400px;
+}
+#graph-box{
+    background-color: #494848;
+    border-radius: 20px;
+}
+.plot{
+    display: flex;
+    justify-content: center;
+    grid-area: graphics-container;
+}
+.graph_part{
+    fill: #7f5327;
+}
+
+#value-box{
+    background-color: #494848;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px #3c354a;
+    transition: 1s;
+}
+#value-box:hover{
+    transform: scale(1.15);
+}
+.inform-box:hover{
+    transform: scale(1.15);
+}
+#graph-box{
+    box-shadow: 0 5px 0px #3c354a;
+}
+.inform-box{
+    text-align: center;
+    background-color: #494848;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px #3c354a;
+}
+.validate{
+    border-radius: 5px;
+    width: 77px;
+    box-shadow: 1px 1px 1px 1px #2f2d2d;
+    transition: 0.1s;
+}
+.resetData{
+    border-radius: 5px;
+    width: 77px;
+    box-shadow: 1px 1px 1px 1px #2f2d2d;
+    transition: 0.1s;
+}
+.resetData:active{
+    background:rgb(116, 248, 99);
+    transform: scale(0.95);
+}
+.validate:active{
+    background: rgb(116, 248, 99);
+    transform: scale(0.95);
+}
+#ystring{
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #2f2d2d;
+}
+.graph-img {
+    width: 300px;
+    height: 300px;
+}
+.cords{
+    display: flex;
+}
+.scroll-box{
+    bottom: 0;
+    right: 0;
+    top: 54px;
+    width: 100%;
+    overflow-y: scroll;
+    height: 300px;
+}
+#result-table{
+    width: 100%;
+    border: 10px;
+}
+#table_out{
+    text-align: center;
+}
+.input{
+    margin: 30px;
+}
+.result-title{
+    text-align: center;
+}
+.graph-title{
+    text-align: center;
+}
+.graph{
+    text-align: center;
+    transition: 1s;
+}
+.anime-gif{
+    height: 400px;
+    right: 50px;
+    position: fixed;
+    bottom: 0;
+}
+#variant-text{
+    float: right;
+}

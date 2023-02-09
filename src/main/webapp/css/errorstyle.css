@@ -1,0 +1,41 @@
+#error_head {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-spacing: 0.2px;
+    color: #FF0000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 1px #000;
+}
+#main_error_message{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    word-spacing: 0.2px;
+    color: #FF0000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    align-content: center;
+    text-shadow: 1px 1px 1px #000;
+}
+#head-main-box{
+    text-align: center;
+    width: 800px;
+    max-width: 1024px;
+    border-spacing: 20px;
+    z-index: 100;
+    padding: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #494848;
+    border-radius: 20px;
+    box-shadow: 0 5px 0px #3c354a;
+    transition: 1s;
+    margin: auto;
+}
